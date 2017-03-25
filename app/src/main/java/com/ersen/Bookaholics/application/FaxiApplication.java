@@ -14,7 +14,7 @@ import retrofit.Retrofit;
 public class FaxiApplication extends Application {
     private static FaxiApplication sInstance; //Get this application instance
     private Retrofit mRetrofitClient;
-    private NetworkAPIs mNetworkAPI;
+    private NetworkAPIs mNetworkAPI; //cjay
 
     @Override
     public void onCreate() {
